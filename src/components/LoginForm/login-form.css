@@ -1,0 +1,11 @@
+.login-form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-form__logo img {
+  width: 80px;
+}

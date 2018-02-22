@@ -1,0 +1,23 @@
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 125ms background-color ease-in-out;
+  transition: 125ms background-color ease-in-out;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+}
+
+.button:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+          box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+
+.button_color_red {
+  background-color: #f03e3e;
+  color: #fff;
+}
+
+.button_color_red:hover {
+  background-color: #fa5252;
+}
