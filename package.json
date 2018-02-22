@@ -1,7 +1,20 @@
 {
-  "name": "rollup-playground",
+  "name": "rollup-app-boilerplate",
+  "description": "Minimal boilerplate for starting app with rollup.js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "rollup.config.js",
+  "author": {
+    "name" : "Velichko Konstantin",
+    "url" : "https://github.com/zoxon"
+  },
+  "keywords": [
+    "rollup", 
+    "javascript", 
+    "app", 
+    "boilerplate", 
+    "postcss", 
+    "browsercync"
+  ],
   "license": "MIT",
   "scripts": {
     "clean-dist": "npm run remove-dist && mkdir dist",
@@ -44,7 +57,6 @@
     "rollup-plugin-image": "^1.0.2",
     "rollup-plugin-node-resolve": "^3.0.3",
     "rollup-plugin-postcss": "^1.2.8",
-    "rollup-plugin-uglify": "^3.0.0",
-    "serve": "^6.4.11"
+    "rollup-plugin-uglify": "^3.0.0"
   }
 }
